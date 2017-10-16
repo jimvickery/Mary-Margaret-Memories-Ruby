@@ -20,12 +20,12 @@ class Mary
                 mary.close
 
                 #exception handling
-                rescue ArgumentError => e
-                    puts "#{e.message}"
-                rescue KeyError => e
-                    puts "#{e.message}"
-                rescue EOFError => e
-                    puts "#{e.message}"
+                rescue ArgumentError => exception
+                    puts "#{exception.message}"
+                rescue KeyError => exception
+                    puts "#{exception.message}"
+                rescue EOFError => exception
+                    puts "#{exception.message}"
             end
         end
         self.message

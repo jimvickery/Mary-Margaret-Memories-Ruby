@@ -1,7 +1,7 @@
 require "yaml"
 class Mary
     
-        def self.message_cycle
+        def self.message
             begin
                 mary_arg = ARGV
                 if mary_arg.empty?
@@ -28,5 +28,5 @@ class Mary
                     puts "#{e.message}"
             end
         end
-        self.message_cycle
+        self.message
     end

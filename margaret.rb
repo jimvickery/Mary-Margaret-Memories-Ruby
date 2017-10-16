@@ -2,7 +2,7 @@ require "yaml"
 
 class Margaret
 
-    def self.message_cycle
+    def self.message
         begin
             margaret_arg = ARGV
             if margaret_arg.empty?
@@ -30,6 +30,6 @@ class Margaret
             
         end
     end
-    self.message_cycle
+    self.message
 	
 end
